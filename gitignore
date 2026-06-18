@@ -1,21 +1,28 @@
-# 数据库缓存
+# 数据库与缓存文件
 *.db
 *.sqlite
 output/*.db
 output/sqlite/**
 
-# 本地私密配置
+# 所有带密钥的本地配置文件（绝对禁止上传）
 .env
+.env.*
 local_config.yaml
+local_config.yml
 config/local.yaml
+config/local.yml
 *.secret
 *.key
 
-# Python缓存
+# Python 运行缓存
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 *.log
 
-# 本地运行临时文件
+# 临时文件
 tmp/
 temp/
+.idea/
+.vscode/
