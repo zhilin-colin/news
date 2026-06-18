@@ -1,0 +1,21 @@
+# 数据库缓存
+*.db
+*.sqlite
+output/*.db
+output/sqlite/**
+
+# 本地私密配置
+.env
+local_config.yaml
+config/local.yaml
+*.secret
+*.key
+
+# Python缓存
+__pycache__/
+*.pyc
+*.log
+
+# 本地运行临时文件
+tmp/
+temp/
